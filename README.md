@@ -45,7 +45,7 @@ The code is designed to work with any image classification dataset. You can modi
 For example, you can use CIFAR-10 or ImageNet.
 
 ### ✅Results
-The Vision Transformer achieves state-of-the-art performance on many image classification benchmarks when pre-trained on large-scale datasets and fine-tuned on specific tasks.
+The Vision Transformer achieves state-of-the-art performance on many image classification benchmarks when pre-trained on large-scale datasets and fine-tuned on specific tasks. I'll also write a blog with a simplified explaination of the results!
 
 ### ✅Future Work
 Add pre-trained weights support for transfer learning.

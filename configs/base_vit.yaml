@@ -1,0 +1,26 @@
+model:
+  name: "vit_small"
+  img_size: 224
+  patch_size: 16
+  in_chans: 3
+  embed_dim: 768
+  depth: 12
+  num_heads: 12
+  mlp_ratio: 4.0
+  qkv_bias: True
+  drop_rate: 0.1
+  attn_drop_rate: 0.0
+  drop_path_rate: 0.1
+
+data:
+  dataset: "CIFAR10"
+  batch_size: 128
+  num_workers: 2
+  augmentation: "rand-m9-mstd0.5"
+
+training:
+  epochs: 100
+  lr: 3e-4
+  weight_decay: 0.05
+  warmup_epochs: 5
+  clip_grad: 1.0
